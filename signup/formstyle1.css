@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial-Rounded-MT;
+}
+
+@font-face {
+  src: url(font/Arial-Rounded-MT.Ttf);
+  font-family: Arial-Rounded-MT;
+}
+
+.formFull {
+  width: 404px;
+  margin: 0px auto;
+  display: block;
+  background: #6100abd6;
+  padding: 50px;
+  text-align: center;
+  background-color: #111;
+  background: url(bg.png);
+  background-repeat: repeat;
+}
+.w-100 {
+  width: 100%;
+}
+.formFull h2 {
+  color: #fff;
+  font-size: 32px;
+  letter-spacing: 2px;
+  line-height: 35px;
+  padding: 15px 0 20px 0;
+}
+.formFull input {
+  width: 100%;
+  background: #fff;
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+  background: #f8f9fa;
+  border-color: #f8f9fa;
+  border: 0;
+  padding: 10px 10px;
+  border-radius: 5px;
+  outline: none;
+  color: #141f32;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+button {
+  background: #ff9700;
+  cursor: pointer;
+}
+.submit {
+  background: #ff9700;
+  border: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+}
+.formFull img {
+  width: 150px;
+}
+.formFull {
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formFull h3 {
+  color: #ff9700;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+.formFull p {
+  color: #f8f9fa;
+  padding: 10px 0 20px 0;
+  letter-spacing: 1px;
+}
+.userInput {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.userInput input {
+  margin-bottom: 0;
+  width: 40px;
+  text-align: center;
+  margin-right: 13px;
+}
+.verify {
+  border: 0;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 10px 40px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+.resendotp {
+  color: #ff9700 !important;
+}
+a.verify {
+  background: #ff9700;
+  color: #000;
+  text-decoration: none;
+  display: block;
+}
+
+@media (max-width: 480px) {
+  .formFull {
+    width: 100%;
+  }
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  
+}
+
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.img-flex img {
+  width: 45px;
+  margin-bottom: 40px;
+}
+.w-100.img-flex {
+  display: flex;
+  justify-content: space-around;
+}
+.w-100.img-flex img:nth-child(2) {
+  width: 70px;
+  margin-left: -7px;
+}
+.overly {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.6;
+}
